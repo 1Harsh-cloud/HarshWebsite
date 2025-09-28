@@ -1,0 +1,251 @@
+.python-detail-page {
+  background-color: #000; /* Pure black background */
+  color: #fff; /* White text */
+  padding: 40px 32px 40px 64px;
+  min-height: 100vh;
+  margin-left: 320px;
+}
+
+@media (max-width: 900px) {
+  .python-detail-page {
+    margin-left: 0;
+    padding: 20px;
+  }
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+  background-color: #282c34; /* Dark grey background to match logo */
+  padding: 20px;
+}
+
+.your-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.titles {
+  flex-grow: 1;
+}
+
+.titles h1 {
+  font-size: 2.5em;
+  color: #fff; /* White color for title */
+}
+
+.titles .subtitle {
+  font-size: 1.2em;
+  color: #fff; /* White color for subtitle */
+}
+
+.python-logo {
+  width: 180px; /* Adjust size as needed */
+  height: auto;
+  margin-left: 20px;
+}
+
+.problem-statement-section {
+  margin-top: 40px;
+  border-left: 4px solid #fff; /* White left border - same as Power BI page */
+  padding-left: 20px;
+}
+
+.problem-statement-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.problem-statement-section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Analysis Output Section Styles */
+.analysis-output-section {
+  margin-top: 40px; /* Space above this section */
+}
+
+.analysis-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Space below the header */
+}
+
+.analysis-icon {
+  margin-right: 10px; /* Space between icon and text */
+  font-size: 1.8em; /* Adjust icon size */
+  color: #fff; /* White color for the icon */
+}
+
+.analysis-images-container {
+  display: flex; /* Use flexbox to arrange images */
+  flex-direction: column; /* Stack images vertically */
+  gap: 20px; /* Space between images */
+  align-items: center; /* Center images horizontally */
+}
+
+.analysis-image {
+  max-width: 100%; /* Ensure image is not wider than its container */
+  height: auto; /* Maintain aspect ratio */
+  border: 1px solid #555; /* Optional: Add a subtle border */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Optional: Add a subtle shadow */
+}
+
+/* Sales Summary Section Styles */
+.sales-summary-section {
+  margin-top: 40px; /* Space above this section */
+  padding: 20px;
+  background-color: #282828; /* Slightly lighter dark background */
+  border-radius: 8px;
+  color: #fff;
+}
+
+.sales-summary-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #fff; /* White heading */
+}
+
+.sales-summary-section pre {
+  white-space: pre-wrap; /* Wrap long lines */
+  word-wrap: break-word; /* Break words if necessary */
+  overflow-x: auto; /* Add scrollbar for long lines on smaller screens */
+  padding: 10px;
+  background-color: #1e1e1e; /* Even darker background for the code block */
+  border-radius: 4px;
+  color: #eee; /* Light grey text for the code */
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; /* Monospaced font for the table */
+  font-size: 1em;
+}
+
+.sales-summary-section .summary-intro-text {
+  display: inline-block; /* Change to inline-block for background */
+  font-size: 1em; /* Adjust font size */
+  margin-bottom: 5px; /* Add space below */
+  color: #fff; /* White text color */
+  background-color: #555; /* Dark grey background color */
+  padding: 2px 8px; /* Add padding around the text */
+  border-radius: 4px; /* Slightly rounded corners */
+}
+
+.sales-summary-section table,
+.product-category-summary-section table,
+.age-group-summary-section table {
+  width: 100%; /* Make table take full width of its container */
+  border-collapse: collapse; /* Collapse borders between cells */
+  margin-top: 15px; /* Space above the table */
+  color: #eee; /* Light grey text for table content */
+}
+
+.sales-summary-section th,
+.sales-summary-section td,
+.product-category-summary-section th,
+.product-category-summary-section td,
+.age-group-summary-section th,
+.age-group-summary-section td {
+  border: 1px solid #555; /* Subtle border for cells */
+  padding: 10px; /* Padding inside cells */
+  text-align: left; /* Align text to the left */
+}
+
+.sales-summary-section th,
+.product-category-summary-section th,
+.age-group-summary-section th {
+  background-color: #333; /* Darker background for table headers */
+  color: #fff; /* White text for headers */
+  font-weight: bold;
+}
+
+.sales-summary-section tbody tr:nth-child(even),
+.product-category-summary-section tbody tr:nth-child(even),
+.age-group-summary-section tbody tr:nth-child(even) {
+  background-color: #222; /* Alternate row background color */
+}
+
+/* Product Category Summary Section Styles */
+.product-category-summary-section {
+  margin-top: 40px; /* Space above this section */
+  padding: 20px;
+  background-color: #282828; /* Slightly lighter dark background */
+  border-radius: 8px;
+  color: #fff;
+}
+
+.product-category-summary-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #fff; /* White heading */
+}
+
+.product-category-summary-section pre {
+  white-space: pre-wrap; /* Wrap long lines */
+  word-wrap: break-word; /* Break words if necessary */
+  overflow-x: auto; /* Add scrollbar for long lines on smaller screens */
+  padding: 10px;
+  background-color: #1e1e1e; /* Even darker background for the code block */
+  border-radius: 4px;
+  color: #eee; /* Light grey text for the code */
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; /* Monospaced font for the table */
+  font-size: 1em;
+}
+
+/* Key Findings Section Styles */
+.key-findings-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #222; /* Dark background */
+  border-radius: 8px;
+}
+
+.key-findings-section h2 {
+  color: #fff;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.key-findings-section ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.key-findings-section li {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.key-findings-section strong {
+  color: #fff;
+  margin-bottom: 8px;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.key-findings-section p {
+  color: #bbb;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 1em;
+}
+
+/* Section for Project Goals */
+.project-goals-section {
+  margin-top: 40px; /* Space above this section */
+  padding: 20px; /* Add some padding */
+  background-color: #282828; /* Slightly lighter dark background */
+  border-radius: 8px;
+  color: #fff;
+}
+
+.project-goals-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #fff; /* White heading */
+}
+
+.goals-icon {
+}
