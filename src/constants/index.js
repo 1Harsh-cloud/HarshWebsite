@@ -36,7 +36,7 @@ import {
 
 // Import Tekisky separately
 import tekisky from "../assets/company/tekisky.png";
-import jabnex from "../assets/company/jabnex.png";
+import jabnex from "../assets/company/tekisky.png";
 import ytse from "../assets/YTSE logo.png";
 import chatgptLogo from "../assets/company/Chatgpt logo.png";
 import swiggyLogo from "../assets/company/Swiggy logo.png";
