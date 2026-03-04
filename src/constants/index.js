@@ -162,7 +162,7 @@ const experiences = [
     company_name: "Jabnex",
     icon: jabnex,
     iconBg: "#383E56",
-    date: "Nov 2023 - Present",
+    date: "Nov 2023 - June 2025",
     points: [
       "Conducted in-depth customer surveys and interviews to drive a 30% improvement in targeted sales strategies.",
       "Leveraged insights to inform product enhancements and tailored campaigns, boosting sales conversion rates by 15% and enhancing customer loyalty.",
