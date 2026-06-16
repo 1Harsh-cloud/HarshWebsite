@@ -38,6 +38,8 @@ import {
 import tekisky from "../assets/company/tekisky.png";
 import jabnex from "../assets/company/tekisky.png";
 import ytse from "../assets/YTSE logo.png";
+import kering from "../assets/company/kering.png";
+import quarre from "../assets/company/quarre.png";
 import chatgptLogo from "../assets/company/Chatgpt logo.png";
 import swiggyLogo from "../assets/company/Swiggy logo.png";
 import metaLogo from "../assets/company/meta.png";
@@ -158,7 +160,33 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Product Marketing & Sales Management Intern",
+    title: "Consultant (Capstone Project)",
+    company_name: "Kering",
+    icon: kering,
+    iconBg: "#383E56",
+    date: "Aug 2025 - May 2026",
+    location: "New York, USA",
+    points: [
+      "Automated Kering's multi-brand supply chain forecasting workflow by designing a Microsoft Forms to Power Automate to Excel Online pipeline that standardized forecast submissions across 6 luxury brands and reduced projected manual operational effort by 95%.",
+      "Built an end-to-end forecasting automation system that normalized inconsistent Excel-based inputs, automated weekly aggregation logic across channels including DOS, Outlet, RTV, and Wholesale, and routed outputs into centralized planning files using Power Automate and Office Scripts.",
+      "Developed scalable daily forecasting workflows by integrating historical 3PL logistics data into master forecasting sheets, enabling automated weekly-to-daily forecast distribution, operational planning visibility, and standardized reporting across brand-level forecasting operations.",
+    ],
+  },
+  {
+    title: "Consultant (Capstone Project)",
+    company_name: "Quarre",
+    icon: quarre,
+    iconBg: "#383E56",
+    date: "Aug 2025 - May 2026",
+    location: "New York, USA",
+    points: [
+      "Built automated development monitoring system pulling real-time data from multiple NYC government APIs (Department of Buildings, PLUTO, Open Data portals) to track construction permits, zoning changes, and regulatory filings with real-time alert framework.",
+      "Developed an AI-driven property intelligence system that streamlined investment signal analysis across 500+ NYC properties, reducing manual research time by 80%.",
+      "Automated marketing and sales workflows using Make.com and AI-powered voice agents, reducing manual content posting time by 70% across LinkedIn and Instagram while enabling CRM-integrated outbound sales prioritization and call tracking.",
+    ],
+  },
+  {
+    title: "Product Management Intern",
     company_name: "Jabnex",
     icon: jabnex,
     iconBg: "#383E56",
