@@ -160,7 +160,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Consultant (Capstone Project)",
+    title: "Strategy Consultant(Capstone Project)",
     company_name: "Kering",
     icon: kering,
     iconBg: "#383E56",
@@ -173,7 +173,7 @@ const experiences = [
     ],
   },
   {
-    title: "Consultant (Capstone Project)",
+    title: "Product Manager(Capstone Project)",
     company_name: "Quarre",
     icon: quarre,
     iconBg: "#383E56",
@@ -186,7 +186,7 @@ const experiences = [
     ],
   },
   {
-    title: "Product Management Intern",
+    title: "Product Manager",
     company_name: "Jabnex",
     icon: jabnex,
     iconBg: "#383E56",
@@ -199,7 +199,7 @@ const experiences = [
     ],
   },
   {
-    title: "Web Development Intern",
+    title: "Software Engineer",
     company_name: "YTSE TECHNOLOGIES",
     icon: ytse,
     iconBg: "#383E56",
